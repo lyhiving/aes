@@ -1,0 +1,22 @@
+{
+  "name": "lyhiving/aes",
+  "description": "PHP AES encryption",
+  "keywords": ["AES","encryption"],
+  "homepage": "https://github.com/lyhiving/aes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyhiving",
+      "email": "lyhiving@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": { "lyhiving\\aes\\": "src/" }
+  },
+  "minimum-stability": "dev"
+}
